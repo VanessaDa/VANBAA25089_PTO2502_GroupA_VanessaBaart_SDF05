@@ -1,86 +1,171 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer Example</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'custom-green': '#3A766E',
-                        'custom-orange': '#CC5500',
-                        'light-gray': '#f7f7f7',
-                    }
-                }
-            }
-        }
-    </script>
-</head>.
-<body class="'font-sans bg-light-gray text-gray-900">
-    <footer class="bg-custom-green text-gray-900 py-6">
-        <div class="container mx-auto px-8 md:px-14">
 
-            <!-- Main Footer Content -->
+  <meta charset="UTF-8">
 
-        <div class="flex flex-col lg:flex-row items-start justify-between py-10 lg:py-14">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-         <!-- Newsletter Section -->    
+  <title>Footer Example</title>
 
-                <div class="newsletter-section flex flex-col text-left w-full mb-10 lg:mb-0 lg:pr-10">
-                    <p class="text-lg mb-3">Subscribe to our newsletter for updates.</p>
-                    <form class="flex flex-col sm:flex-row items-start">
-                        <input type="email" 
-                          type="text" 
-                          placeholder="Enter your email" 
-                          class="py-2 px-4 border-gray-300 rounded-md mb-3 sm:mr-3 w-full md:w-72 lg:w-80"
-                          >
-                        <button 
-                        type="submit"
-                        class="bg-custom-orange text-white py-2 px-5 rounded-md hover:bg-orange-600 transition w-full sm:w-auto"
-                        >
-                        Subscribe
-                    </button>
-                    </form>
-                   </div>
-                    <!-- Links Section -->
-                        <div class="links-section flex flex-col md:flex-row justify-between w-full mt-8 lg:mt-0">
-                            <!-- Quick Links -->                           
-                           <di class="quick-links flex flex-col text-left mb-8 md:mb-0 md:mr-10 flex-1">
-                                <h3 class="text-sm font-bold mb-3">Quick Links</h3>
-                                <ul class="list-none space-y-2 text-sm">
-                                    <li><a href="#" class="hover:underline">Home</a></li>
-                                    <li><a href="#" class="hover:underline">About Us</a></li>
-                                    <li><a href="#" class="hover:underline">Our Values</a></li>
-                               </ul>
-                           </div>
+  <script src=https://cdn.tailwindcss.com></script>
 
-                            <!-- Technologies Links -->
-                            <div class="technologies flex flex-col text-left flex-1">
-                                <h3 class="text-sm font-bold mb-3">Technologies</h3>
-                                <ul class="list-none space-y-2 text-sm">
-                                    <li><a href="#" class="hover:underline">HTML</a></li>
-                                    <li><a href="#" class="hover:underline">CSS</a></li>
-                                    <li><a href="#" class="underline">JavaScript</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                     </div>  <!-- End of Main Footer Content -->
-                            
-            <!-- Footer Bottom Section-->
-            <hr class="border-t border-cutom-orange mb-4">
-            <div class="flex flex-col sm:flex-row items-left justify-between pb-6">
-                <img
-                   class="w-32 h-auto mb-4 sm:mb-0"
-                   src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg"
-                     alt="Logo"
-                     />
-                </div>
-                </footer>
-                </body>
-               </html>
-                   
-                
-                
+  <script>
+
+    tailwind.config = {
+
+      theme: {
+
+        extend: {
+
+          colors: {
+
+            'custom-green': '#3A766E',
+
+            'custom-orange': '#CC5500',
+
+            'light-gray': '#f7f7f7',
+
+          },
+
+        },
+
+      },
+
+    }
+
+  </script>
+
+</head>
+
+<body class="font-sans bg-light-gray text-gray-900">
+
+  <footer class="bg-custom-green text-gray-900 py-6">
+
+  <div class="container mx-auto px-8 md:px-14">
+
+   
+
+    <!-- Main Footer Content -->
+
+    <div class="flex flex-col lg:flex-row items-start justify-between py-10 lg:py-14">
+
+     
+
+      <!-- Newsletter Section -->
+
+      <div class="newsletter-section flex flex-col text-left w-full mb-10 lg:mb-0 lg:pr-10">
+
+        <p class="text-lg mb-3">Subscribe to our newsletter for updates.</p>
+
+        <form class="flex flex-col sm:flex-row items-start">
+
+          <input
+
+            type="email"
+
+            placeholder="Enter your email"
+
+            class="py-2 px-4 border border-gray-300 rounded-md mb-3 sm:mb-0 sm:mr-3 w-full md:w-72 lg:w-80"
+
+          >
+
+          <button
+
+            type="submit"
+
+            class="bg-custom-orange text-white py-2 px-5 rounded-md hover:bg-orange-600 transition w-full sm:w-auto"
+
+          >
+
+            Subscribe
+
+          </button>
+
+        </form>
+
+      </div>
+
+ 
+
+      <!-- Links Section -->
+
+      <div class="links-section flex flex-col md:flex-row justify-between w-full mt-8 lg:mt-0">
+
+        <!-- Quick Links -->
+
+        <div class="quick-links flex flex-col text-left mb-8 md:mb-0 md:mr-10 flex-1">
+
+          <h3 class="text-sm font-bold mb-3">Quick Links</h3>
+
+          <ul class="list-none space-y-2 text-sm">
+
+            <li><a href="#" class="hover:underline">Home</a></li>
+
+            <li><a href="#" class="hover:underline">About Us</a></li>
+
+            <li><a href="#" class="hover:underline">Our Values</a></li>
+
+          </ul>
+
+        </div>
+
+ 
+
+        <!-- Technologies -->
+
+        <div class="technologies flex flex-col text-left flex-1">
+
+          <h3 class="text-sm font-bold mb-3">Technologies</h3>
+
+          <ul class="list-none space-y-2 text-sm">
+
+            <li><a href="#" class="hover:underline">HTML</a></li>
+
+            <li><a href="#" class="hover:underline">CSS</a></li>
+
+            <li><a href="#" class="hover:underline">JavaScript</a></li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+ 
+
+    </div> <!-- end of flex -->
+
+ 
+
+    <!-- Footer Bottom Section -->
+
+    <hr class="border-t border-custom-orange mb-4">
+
+    <div class="flex flex-col sm:flex-row items-left justify-between pb-6">
+
+      <img
+
+        class="w-32 h-auto mb-4 sm:mb-0"
+
+        src=https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg
+
+        alt="CodeSpace Logo"
+
+      />
+
+  </div> <!-- end of container -->
+
+</footer>
+
+ 
+
+  </footer>
+
+</body>
+
+</html>
+
+
