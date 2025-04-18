@@ -10,20 +10,42 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: '#659f8f',
-                        secondary: '#313131',
+                        'custom-green': '#3A766E',
+                        'custom-orange': '#CC5500',
+                        'light-gray': '#f7f7f7',
                     }
                 }
             }
         }
     </script>
-</head>
-<body>
-    <footer class="bg-[#659f8f] dark:bg-[#313131]">
-        <div class="container">
-            <footer class="bg-[#659f8f] dark:bg-[#313131]">
-                <div class="container px-6 py-12 mx-auto">
-                    <div class="grid">
+</head>.
+<body class="'font-sans bg-light-gray text-gray-900">
+    <footer class="bg-custom-green text-gray-900 py-6">
+        <div class="container mx-auto px-8 md:px-14">
+
+            <!-- Main Footer Content -->
+
+        <div class="flex flex-col lg:flex-row items-start justify-between py-10 lg:py-14">
+
+         <!-- Newsletter Section -->    
+
+                <div class="newsletter-section flex flex-col text-left w-full mb-10 lg:mb-0 lg:pr-10">
+                    <p class="text-lg mb-3">Subscribe to our newsletter for updates.</p>
+                    <form class="flex flex-col sm:flex-row items-start">
+                        <input type="email" 
+                          type="text" 
+                          placeholder="Enter your email" 
+                          class="py-2 px-4 border-gray-300 rounded-md mb-3 sm:mr-3 w-full md:w-72 lg:w-80"
+                          >
+                        <button 
+                        type="submit"
+                        class="bg-custom-orange text-white py-2 px-5 rounded-md hover:bg-orange-600 transition w-full sm:w-auto"
+                        >
+                        Subscribe
+                    </button>
+                    </form>
+                    <div class>
+                        
                         <div class="sm:col-span-2">
                             <h1 class="max-w-lg" >Subscribe.</h1>
                             <div class="flex">
